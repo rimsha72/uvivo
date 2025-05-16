@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@theme {
+  --color-blue-150: #010D2F;
+  --color-blue-250: #000B29;
+  --color-blue-350: #000A25;
+  --color-blue-450: #1F1F1F;
+  --color-gray-150: #E3E3E3;
+  --color-gray-250: #8D8D8D;
+  --color-gray-350: #F6F6F8;
+  --color-gray-450: #999DA0;
+  --color-gray-550: #B2BABE;
+  --color-gray-650: #FAFAFA;
+  --color-gray-750: #EAECF0;
+  --color-gray-850: #042124;
+  --color-gray-820: #767A7C;
+  --color-gray-950: #616161;
+  --color-gray-980: #F2F2F2;
+  --color-gray-970: #898E95;
+  --color-gray-920: #D0D5DD;
+  --color-gray-930: #818181;
+  --color-gray-940: #F9FAFB;
+  --color-gray-990: #999DA0;
+  --color-green-150: #00B69B;
+  --color-green-250: #00A559;
+  --color-black-150: #2A2A2E;
+  --color-black-250: #09090A;
+  --color-yellow-150: #F9A221;
+  --color-red-150: #4B96F5;
+  --color-red-250: #EA4335;
+  --breakpoint-xxs: 385px;
+  --breakpoint-xl1: 1440px;
+  --container-xl1: 1440px;
+  --font-display: "DM Sans", "sans-serif";
+  --font-inter: "Inter", "sans-serif";
+  --font-poppin: "Poppins", "sans-serif";
+  --font-open: "Open Sans", "sans-serif";
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+body{
+  background-color: #FAFCFF;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
