@@ -7,15 +7,12 @@ import ForgetPassword from "./pages/ForgetPassword";
 import OTP from "./pages/OTP";
 import NewPassword from "./pages/NewPassword";
 import Customer from "./pages/Customer";
-import Artist from "./pages/Artist";
-import Order from "./pages/Order";
-import Categories from "./pages/Categories";
 import Settings from "./pages/Settings";
-import ArtistDetails from "./pages/ArtistDetails";
 import CustomerDetail from "./pages/CustomerDetail";
-import OrderDetail from "./pages/OrderDetail";
-import ArtistRanking from "./pages/ArtistRanking";
 import Revenue from "./pages/Revenue";
+import Gift from "./pages/Gift";
+import Reports from "./pages/Reports";
+import ReportDetail from "./pages/ReportDetail";
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -40,14 +37,11 @@ function App() {
             <Route index element={<Home />} />
             <Route path="/customer" element={<Customer />} />
             <Route path="/customer/:customerId" element={<CustomerDetail />} />
-            <Route path="/artist" element={<Artist />} />
-            <Route path="/ranking" element={<ArtistRanking />} />
+            <Route path="/gifts" element={<Gift />} />
+            <Route path="/reports" element={<Reports />} />
+            <Route path="/reports/:reportId" element={<ReportDetail />} />
             <Route path="/revenue" element={<Revenue />} />
-            <Route path="/order" element={<Order />} />
-            <Route path="/order/view" element={<OrderDetail />} />
-            <Route path="/categories" element={<Categories />} />
             <Route path="/settings" element={<Settings />} />
-            <Route path="/artist/:artistId" element={<ArtistDetails />} />
           </Route>
         </>
       )}

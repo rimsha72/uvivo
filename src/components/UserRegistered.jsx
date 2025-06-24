@@ -5,7 +5,6 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import { useState } from "react";
-import EarningTable from "./EarningTable";
 import UserTable from './UserTable';
 export default function UserRegistered() {
     const [isOpen, setIsOpen] = useState(false);

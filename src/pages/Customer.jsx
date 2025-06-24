@@ -5,7 +5,6 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider'
 import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
 import { useState } from "react";
-import UserTable from "../components/UserTable";
 import UserTable2 from '../components/UserTable2';
 export default function Customer() {
     const [isOpen, setIsOpen] = useState(false);

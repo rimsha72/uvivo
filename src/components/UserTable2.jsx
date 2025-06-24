@@ -181,7 +181,7 @@ export default function UserTable2() {
                                 <td className="px-6 py-4 text-black font-semibold">
                                     <button
                                         className="flex gap-1 items-center cursor-pointer"
-                                        // onClick={() => handleViewClick(user.id)}
+                                        onClick={() => handleViewClick(user.id)}
                                     >
                                         {user.account}{" "}
                                         <svg
